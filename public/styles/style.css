@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #f5f5f5;
+}
+header{
+    max-width: 100%;
+    padding: 10px;
+    background-color: #FFBD73;
+}
+h1{
+    color: #f5f5f5;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+}
+form{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 35px;
+    border: transparent;
+    background-color: #f5f5f5;
+}
+textarea{
+    width: 100%;
+    border: transparent;
+    background-color: #f5f5f5;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+button{
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #FFBD73;
+    border: none;
+    color: #f5f5f5;
+}
+button:hover{
+    background-color: #FFA24C;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 30px;
+
+}
+.card{
+    box-sizing: content-box;
+    overflow: visible;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.td{
+    width: 200px;
+    background-color: #FFBD73;
+    text-align: center;
+    border-radius: 2px 3px 8px 1px;
+    transform: rotate(5deg);
+}
+.td p{
+    font-size: 1.2rem;
+    color: #f5f5f5;
+    transform: rotate(-5deg);
+}
+.back{
+    width: 50px;
+    background-color: #FFBD73;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 40%;
+    cursor: pointer;
+}
+.back:hover{
+    background-color: #FFA24C;
+    color: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+h6{
+    padding: 10px;
+    color: #f5f5f5;
+}
